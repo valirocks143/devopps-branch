@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>valicom.testing</groupId>
+  <artifactId>valiwebrepo</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>valiwebrepo Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+	<!-- https://mvnrepository.com/artifact/goate/testng -->
+	<!--<dependency>
+		<groupId>goate</groupId>
+		<artifactId>testng</artifactId>
+		<version>0.15.8.202006111157</version>
+		<scope>test</scope>
+	</dependency> -->
+	<!-- https://mvnrepository.com/artifact/io.joynr.java/javaapi -->
+	<dependency>
+		<groupId>io.joynr.java</groupId>
+		<artifactId>javaapi</artifactId>
+		<version>1.19.1</version>
+	</dependency>
+	<repositories>
+	<repository>
+	<id>samplemaven</id>
+	<name>Maven Repository Switchboard</name>
+	<url>http://repo1.maven.org/maven2</url>
+	</repository>
+	<repositories>
+	<repository>
+	<id>sample mvn repo</id>
+	<name>Maven Repository Switchboard</name>
+	<url>https://repo1.maven.org/maven2/ </url>
+	</repository>
+
+   </dependencies>
+  <build>
+    <finalName>valiwebrepo</finalName>
+  </build>
+</project>
